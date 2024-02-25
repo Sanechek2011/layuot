@@ -1,0 +1,22 @@
+<svg width="92" height="91" viewBox="0 0 92 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_1807)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.2171 4.94086C101.4 22.4558 108.017 54.6501 50.5316 86.605C25.3046 100.628 0.000488281 68.5279 0.000488281 44.3921C0.000488281 20.2547 13.0328 -12.5741 57.2171 4.94086Z" fill="url(#paint0_linear_1_1807)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.16895 29.8075L19.6834 13.8969L31.1995 29.8075H8.16895Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.1997 29.8075L42.7142 13.8969L54.2287 29.8075H31.1997Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M54.2284 29.8075L65.7444 13.8969L77.2589 29.8075H54.2284Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.6836 13.8969L31.1996 29.8075L42.7141 13.8969H19.6836Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42.714 13.8969L54.23 29.8075L65.7445 13.8969H42.714Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.1997 29.8076L42.7142 72.94L54.2287 29.8076H31.1997Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.16895 29.8075L42.714 72.9399L31.1995 29.8075H8.16895Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M77.259 29.8075L42.714 72.9399L54.2285 29.8075H77.259Z" stroke="white" stroke-width="3.00008" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_1807" x1="0.264028" y1="56.2685" x2="92" y2="56.2685" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F880B9"/>
+<stop offset="1" stop-color="#FF98A6"/>
+</linearGradient>
+<clipPath id="clip0_1_1807">
+<rect width="92" height="90.0249" fill="white"/>
+</clipPath>
+</defs>
+</svg>
