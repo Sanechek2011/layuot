@@ -1,0 +1,984 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+margin: 0 ;
+width: 1920px;
+display: flex;
+flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+.text-line{
+display: flex;
+background: url(img/bg.svg);
+width: 100%;
+height: 40px;
+align-items: center;
+gap:12px;
+justify-content: space-between;
+}
+.run{
+
+    margin: 0px 0px 0px 260px ;
+    line-height: 40px;
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.run1{
+
+    padding-left: 579px;
+}
+.run2{
+    
+    color: white;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: right;
+    
+    text-decoration: none;  
+}
+.run3{
+    font-family:'Ubuntu';
+    color: white;
+    font-size: 14px;
+    
+    text-decoration: none;
+    padding-left: 33px;
+}
+.run4{
+   
+    color: white;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: right;
+    
+    text-decoration: none;
+    margin: 0px 260px 0px 0px;
+    
+}
+.header_conteiner{
+    display: flex;
+    height: 80px;
+    margin: 0px 260px 0px 250px ;
+    align-items: center;
+    gap: 65px;
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    
+    ;
+    
+}
+.logo{
+padding-right: 83px;
+}
+.nav-items{
+    text-decoration: none;
+    color: #4E3535;
+}
+.menu{
+display: flex;
+align-items: center;
+margin: 0;
+padding-left: 70px;
+}
+.search{
+border-left: 1px solid #CA3192;
+padding-left: 18px;
+height: 36px;
+position: relative;
+}
+.search-img{
+    position: absolute;
+    top: 7px;
+    
+}
+.heart{
+    padding-left: 80px;
+}
+.cart{
+padding-left: 29px;
+}
+.menu1{
+padding-left: 65px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+color: #CA3192;
+
+}
+.menu-items{
+padding-left: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  background: url(./img/AdobeStock_187620823\ 1.svg );
+  background-repeat: no-repeat;
+  
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    margin-left: 201px;
+    
+}
+.slider{
+        background-color: #ffffff60;
+        backdrop-filter: blur(15px);
+        border-radius: 40px 0px;
+        width: 575px;
+        height: 562px;
+        margin-top: 99px;
+        margin-left: 19px;
+        margin-bottom: 99px;
+        background-repeat: no-repeat;
+        gap: 54px;
+        display: flex;
+        flex-direction: column;
+        
+        }
+.next{
+    width: 40px;
+height: 40px;
+padding-top: 100px;
+
+
+}
+.text{
+    margin: 53px 0px 0px 49px;
+font-family: Ubuntu;
+font-size: 46px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color:#843C6A;
+;
+}
+.text1{
+margin:0px 0px 0px 49px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.elipse{
+    display: flex;
+    margin:103px 0px 55px 49px;
+    gap: 8px;
+}
+.elipse1{
+    width: 15px;
+    height: 15px;
+    top: 711px;
+    left: 309px;
+    color:#CA3192;
+    
+    
+}
+.elipse2{
+    width: 15px;
+    height: 15px;
+    top: 711px;
+    left: 332px;
+    
+}
+.elipse3{
+    width: 15px;
+    height: 15px;
+    top: 711px;
+    left: 355px;
+    
+}
+.elipse4{
+    width: 15px;
+height: 15px;
+top: 711px;
+left: 378px;
+
+
+}
+.wallpaper{
+display: flex;
+justify-content: space-between;
+margin:87px 260px 0px 260px;
+font-family: Ubuntu;
+font-size: 46px;
+font-weight: 500;
+flex-wrap: wrap;
+letter-spacing: 0em;
+text-align: left;
+color:#843C6A;
+;
+}
+.wallpaper1{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+padding-left: 1063px;
+
+}
+.next1{
+width: 18px;
+height: 18px;
+padding-top: 20px;
+
+
+}
+#wallpaper{
+    margin: 0;
+}
+.gallery{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+height: 1420px;
+margin-top:45px ;
+
+}
+figcaption{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+
+
+
+}
+.next2{
+    position: absolute;
+    padding: 2px 0px 0px 11px;
+}
+.inf{
+    padding-bottom: 7px;
+}
+.instagram{
+    display: flex;
+    align-items: flex-end;
+    margin:144px 0px 144px 0px;
+}
+.inst1{
+    display: flex;
+    flex-direction: column;
+    margin-left:47px;
+}
+.text3{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;  
+}
+.text4{
+   margin-left: 144px;
+   width: 457px;
+   height: 80px;
+   border-radius: 10px;
+   background: url(./img/bginst.jpg);
+   font-family: Ubuntu;
+font-size: 22px;
+font-weight: 400;
+text-align: center;
+color: white;
+padding: 0;
+border: none;
+
+}
+.text101{
+    font-family: Ubuntu;
+font-size: 46px;
+font-weight: 500;
+line-height: 60px;
+margin: 0px 440px 0px 61px;
+color: #843C6A;
+width: 440px;
+}
+.newwallpaper{
+    display: flex;
+    flex-direction: column;
+}
+.gallery1{
+    display: flex;
+    gap:15px;
+    margin-top: 70px;
+    margin-left: -53px;
+}
+.plitka{
+    display: flex;
+    margin-top: 160px;
+    gap:32px;
+}
+.plitka1{
+display: flex;
+flex-direction: column;
+gap:32px;
+}
+.text5{
+    margin: 0px;
+}
+.text6{
+    font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+
+
+}
+.text7{
+    font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+margin-right: 70px;
+
+}
+.plitka2{
+    font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+color:#CA3192;
+;
+   
+}
+.next25{
+    position: absolute;
+    padding-top: 1px;
+}
+.gallery2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top:73px ;
+    height: 904px;
+}
+.kraska{
+    display: flex;
+    margin-top: 137px; 
+}
+.kraska1{
+    padding-left: 66px;
+    padding-top: 44px;
+}
+.text7{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+.knopki{
+    display: flex;
+    gap:15px;
+    margin-top: 76px;
+}
+.knopka{
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+width: 221px;
+height: 64px;
+border-radius: 10px;
+border:1px solid #DEDEDE;
+
+
+}
+.knopka1{
+width: 220px;
+height: 64px;
+border-radius: 10px;
+background: #CA3192;
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+color:white;
+border: none;
+
+
+}
+.kraski{
+    padding-left: 34px;
+    font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.gallery3{
+    display: flex;
+    gap: 15px;
+margin-top:61px;
+margin-left: -55px;
+}
+.video{
+    display: flex;
+    margin: 177px -260px 0px -260px;
+    background: #F6F6F6;
+    ;
+    margin-top: 146px;
+    padding-top: 117px;
+}
+.designer1{
+    margin: 0px 0px 0px 260px;
+    padding-right: 133px;
+}
+.designer2{
+
+margin:0px 260px 0px 0px;
+padding-bottom: 85px;
+}
+.partner{
+    margin-top: 167px;
+}
+.partners{
+    margin-top:77px;
+    display: flex;
+    margin-left: -50px;
+}
+.galleryhard{
+display: flex;
+height: 692px;
+width: 460px;
+align-content: flex-end;
+flex-wrap: wrap;
+gap:15px;
+padding-left:15px;
+padding-right: 27px;
+}
+.designer3{
+    display: flex;
+    width: 692px;
+    height: 235px;
+    
+    left: 968px;
+    border-radius: 0px 0px 0px 40px;
+    background-color: #FFFFFF;
+    margin-right: 260px;
+position: absolute;
+}
+.olga{
+    padding-left: 68px
+}
+.olgainf{
+  
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+padding-left: 68px;
+
+}
+.instagram2{
+        padding-top: 9px;
+        font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+color:  #562952;
+
+        
+}
+.oins{
+    position: absolute;
+padding-top: 10px;
+padding-left: 15px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+color: #562952;
+;
+
+}
+.ininfo{
+    font-family: Ubuntu;
+font-size: 16px;
+font-weight: 300;
+line-height: 27px;
+padding-top:35px;
+width: 442px;
+}
+.podhod1{
+display: flex;
+flex-direction: column;
+}
+.podhod{
+    margin-top: 165px;
+    display: flex;
+    gap:34px;
+}
+.text8{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+   padding-top: 34px;
+   margin: 0;
+    }
+    .text9{
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+       padding-top: 18px;
+       margin: 0;
+        }
+        .info{
+            display: flex;
+           
+            background-color:#F6F6F6 ;
+            
+            
+        }
+.oboi1{
+   display: flex;
+       
+   width: 1920px;
+    }
+.infotext{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+margin-top: 66px;
+margin-right: 260px;
+
+}
+.infotext3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-right: 260px;
+}
+.infotext4{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 283px;
+    margin-right: 260px;
+}
+.text10{
+
+font-family: Ubuntu;
+font-size: 46px;
+font-weight: 500;
+line-height: 60px;
+margin: 237px 440px 0px 61px;
+color: #843C6A;
+width: 440px;
+}
+.text11{
+    margin: 0px 260px 0px 61px;
+padding-top:18px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.text15{
+    margin: 0px 260px 0px 61px;
+padding-top:32px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.text12{
+    margin: 0px 260px 0px 61px;
+padding-top:18px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.text13{
+    margin: 0px 260px 0px 61px;
+padding-top:49px;
+
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.text23{
+    margin: 0px 260px 0px 61px;
+padding-top:14px;
+
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+
+.text14{
+    margin: 0px 260px 0px 61px;
+padding-top:36px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.text24{
+    margin: 0px 260px 0px 61px;
+padding-top:16px;
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+}
+.cloud{
+    color: #CA3192;
+}
+.info1{
+    display: flex;
+    
+    margin: 0;
+}
+.infotext1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+    }
+    .tex{
+        display: flex;
+        flex-direction: column;
+        margin-left:260px;
+    }
+    .text16{
+       margin:191px 250px 0px 0px;
+        font-family: Ubuntu;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #843C6A;
+    }
+    .text17{
+        
+    padding-top:32px;
+    padding-right: 61px;    
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    }
+    .text18{
+        
+    
+    padding-right: 61px;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    }
+    
+    .text19{
+    
+    padding-top:18px;
+    padding-right: 61px;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    }
+    .niz{ 
+        display: flex; 
+        flex-direction: column; 
+        margin-top: 163px;
+        gap: 71px;
+    } 
+    .niz1{ 
+        margin:0px 850px 0px 260px; 
+        font-family: Ubuntu; 
+    font-size: 46px; 
+    font-weight: 500; 
+    line-height: 60px; 
+    color:#843C6A; 
+    
+    
+     
+     
+     
+    } 
+    .information{ 
+     
+        display: flex; 
+        flex-direction: row; 
+        gap: 56px; 
+        margin:0px 260px 0px 260px; 
+        text-transform: uppercase;
+        max-width: 1400px;
+        
+    } 
+    .word{ 
+    width: 416px; 
+    font-family: Ubuntu; 
+    font-size: 18px; 
+    font-weight: 300; 
+    line-height: 27px; 
+    color: #4E3535; 
+    margin: 23px 0px 0px 0px;
+    text-transform: none;
+     
+     
+    }
+    .blok{
+        display: flex; 
+        flex-direction: column;
+        
+        gap: 44px;
+    }
+    .blok1{
+        display: flex; 
+        flex-direction:column;
+        gap: 41px;
+       
+    }
+    .blok2{
+        display: flex; 
+        flex-direction:column;
+        gap: 41px;
+        
+    }
+    .mini{
+        
+        font-family: Ubuntu;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #4E3535;
+        
+    }
+    h4{
+        position: relative;
+    }
+    .sp{
+        padding-left: 23px;
+        position: absolute;
+        padding-top: 52px;
+        width: 298px;
+    }
+   .hard{
+    display: flex;
+    align-items: center;
+    width: 298px;
+    gap: 23px;
+   }
+   .footer{
+height: 448px;
+margin: 162px 0px 0px 260px;
+display: flex;
+order: 1;
+flex-direction: column;
+align-content: flex-start;
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color:#CA3192;
+gap: 16px;
+width: 1920px;
+flex-wrap: wrap;
+padding-bottom: 92px;
+}
+.nav{
+    display: flex;
+    flex-flow: column;
+    
+   }
+   
+   .nav1{
+    display: flex;
+    flex-flow: column;
+   }
+   .item{
+    font-family: Ubuntu;
+font-size: 14px;
+font-weight: 400;
+line-height: 34px;
+color: #4E3535;
+   }
+   .item2{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #C64B95;
+   }
+   .nav2{
+    display: flex;
+    flex-flow: column; 
+    padding-bottom: 16px;
+   }
+   .nav3{
+    
+        display: flex;
+        flex-flow: column;
+        
+   }
+   .nav4{
+    display: flex;
+    flex-flow: column;
+     padding-top: 16px;
+   }
+  
+.nav9{
+    
+    position: absolute;
+    padding-left: 236px;
+}
+ .nav10{
+    position: absolute;
+    padding-left: 472px;
+}
+.nav11{
+    position: absolute;
+    padding-left: 708px;
+}
+.nav12{
+    position: absolute;
+    padding-left: 300px;
+}.nav13{
+    position: absolute;
+    padding-left: 940px;
+    width: 176px;
+} .nav14{
+    width: 215px;
+    position: absolute;
+    padding-left: 1179px;
+   }
+ 
+.item1{
+    width: 130px;
+}
+.mailr{
+
+    position: absolute;
+    padding-top: 10px;
+}
+.phoner{
+    
+    position: absolute;
+    padding-top: 10px;
+}
+   .text-line1{
+    display: flex;
+    background: url(img/bg.svg);
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    gap:12px;
+    justify-content: center;
+    
+   }
+   .knopka2{
+    background: none;
+    border:none;
+    position: center;
+   }
+   .mailrt{
+
+    color:#CA3192;
+    font-family: Ubuntu;
+    text-decoration: none;  
+    padding-left: 31px;
+    
+font-size: 14px;
+font-weight: 400;
+line-height: 34px;
+   }
+   .phonert{
+    font-family:'Ubuntu';
+    color:#CA3192;
+    text-decoration: none;
+    padding-left: 31px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+   }
+   .nav5{
+    display: flex; 
+    flex-flow: column;
+   }
+   .s{
+
+   }
+   .s1{
+    color:#CA3192;
+
+   }
+   .knopki5{
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+   }
+   .knopka3{
+padding: 0;
+background: none;
+border:none;
+   }
+   .knopka4{
+    padding: 0;
+background: none;
+border:none;
+   }
+   .sogl{
+    font-family: Ubuntu;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #4E3535;
+text-decoration: none;
+   }
+   .end{
+    padding-top: 31px;
+    width: 142px;
+   }
+   .end1{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4E3535;
+    text-decoration: none;
+   }
